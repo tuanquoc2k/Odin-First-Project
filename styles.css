@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container {
+    display:  flex;
+    flex-direction: column;
+}
+
+/* HEADER PART */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 150px;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-right {
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+/* HERO PART */
+.hero {
+    display: flex;
+    padding: 80px 150px;
+    background-color: #1F2937;
+}
+
+.hero-info {
+    width: 500px;
+}
+
+.hero-info span {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-info p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-info button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero-image img {
+    margin-left: auto; 
+    display: block;
+    max-width: 88%;
+    height: 88%;
+}
+
+/* DETAILS PART */
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 180px;
+    padding-bottom: 40px;
+}
+
+.details-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    padding: 40px 0;
+}
+
+.details-info img {
+    display: block;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.details-info {
+    display: flex;
+}
+
+.details-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* QUOTE PART */
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-info {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-info p {
+    margin: 0;
+}
+
+.thor-quote {
+    align-self: flex-end;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* ABOUT PART */
+.about {
+    padding: 60px 180px;
+}
+
+.about div {
+    padding: 15px 70px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-info p {
+    color: #F9FAF8;
+}
+
+.about-button {
+    display: flex;
+    align-items: center;
+}
+
+.about-button button {
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    width: 120px;
+    height: 40px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.action {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.about-info p {
+    margin: 0;
+}
+
+/* FOOTER PART */
+footer {
+    padding: 30px 0;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+
+
+
+
+
